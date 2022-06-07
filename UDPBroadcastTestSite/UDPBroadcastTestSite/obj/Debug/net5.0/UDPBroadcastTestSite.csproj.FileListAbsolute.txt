@@ -1,0 +1,16 @@
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.exe
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.deps.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.runtimeconfig.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.runtimeconfig.dev.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\bin\Debug\net5.0\UDPBroadcastTestSite.pdb
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.csproj.AssemblyReference.cache
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.AssemblyInfoInputs.cache
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.AssemblyInfo.cs
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.csproj.CoreCompileInputs.cache
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\refint\UDPBroadcastTestSite.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.pdb
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\UDPBroadcastTestSite.genruntimeconfig.cache
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\UDPBroadcastTestSite\UDPBroadcastTestSite\obj\Debug\net5.0\ref\UDPBroadcastTestSite.dll
