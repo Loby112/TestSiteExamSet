@@ -39,12 +39,18 @@ namespace TestSet2API.Controllers {
         // PUT api/<TestSitesController>/5
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpPut("{id}")]
         public ActionResult<TestSite> Put(int id, TestSite updaTestSite){
             if (updaTestSite.WaitingTime < 0){
                 return BadRequest("Waiting time can't be lower than 0");
             }
-            return Ok(_manager.UpdateSite(id, updaTestSite));
+
+            var result = _manager.UpdateSite(id, updaTestSite);
+            if (result == null){
+                return NotFound("The id couldn't be found");
+            }
+            return Ok();
         }
 
         // DELETE api/<TestSitesController>/5
