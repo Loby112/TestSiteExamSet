@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TestSet2API.Managers;
 using TestSet2API.Models;
@@ -24,16 +25,26 @@ namespace TestSet2API.Controllers {
         }
 
         // POST api/<TestSitesController>
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status201Created)]
         [HttpPost]
         public ActionResult<TestSite> Post([FromBody] TestSite site){
+            if (site.WaitingTime < 0){
+                return BadRequest("Waiting time can't be lower than 0");
+            }
             _manager.AddSite(site);
-            return site;
+            return Created("api/testsites/" + site.Id, site);
         }
 
         // PUT api/<TestSitesController>/5
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [HttpPut("{id}")]
         public ActionResult<TestSite> Put(int id, TestSite updaTestSite){
-            return _manager.UpdateSite(id, updaTestSite);
+            if (updaTestSite.WaitingTime < 0){
+                return BadRequest("Waiting time can't be lower than 0");
+            }
+            return Ok(_manager.UpdateSite(id, updaTestSite));
         }
 
         // DELETE api/<TestSitesController>/5

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mGy+aEopbcRwU9dKSehFxbwDZpHmfW3eC4Niauf/kk2j52nr1PshjjyYsDMtbyxYgLWFWKXYKQjwo66WXOTX1A==",
+  "dgSpecHash": "xQI9vPnVo2LLuEzyGUJ0sDBNboaDr+M4xgdzJD7aV76cAW612DlKtVqTcyONxaV4cw8xz7RlzMgJg4jUcwdeng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\TestSet2API\\TestSet2API\\TestSet2API.csproj",
+  "projectFilePath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\TestSiteExamSet\\TestSet2API\\TestSet2API\\TestSet2API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lobyl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Lobyl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
