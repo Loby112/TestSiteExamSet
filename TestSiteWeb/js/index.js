@@ -35,7 +35,10 @@ Vue.createApp({
                 url = url + '?filterString=time'
             }
             else {
-                url = url + '?filterString=' + filter
+                if(filter != null){
+                    url = url + '?filterString=' + filter
+                }
+                
             }
             this.helperGetAndShow(url)
         }

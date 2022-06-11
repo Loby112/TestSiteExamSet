@@ -15,7 +15,7 @@
 
 <body>
     <div id="app">
-        <button id="getAllButton" v-on:click="getAllTestSites" class="btn btn-primary">Get all testsites</button>
+        <button id="getAllButton" v-on:click="getAllTestSites('')" class="btn btn-primary">Get all testsites</button>
         <input type="text" v-model="filter">
         <button v-on:click="getAllTestSites(filter)"> Search by name</button>
         <button v-on:click="getAllTestSites('time')"> Sort by time</button>
